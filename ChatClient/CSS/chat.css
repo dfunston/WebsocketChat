@@ -1,0 +1,81 @@
+html{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Left side of page (chat log, message box) */
+
+#left{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 85%;
+	float: left;
+	clear: none;
+}
+
+#chatLog{
+	margin: 0;
+	padding: 0;
+	height: 95%;
+	width: 100%;
+	float: left;
+	clear: none;
+	background-color: #FF888A;
+}
+
+.sysmsg{
+	font: red;
+}
+
+#chatMsg{
+	margin: 0;
+	padding: 0;
+	height: 5%;
+	width: 100%;
+	float: left;
+	clear: none;
+	background-color: #88FF7A;
+}
+
+#txtMessage{
+	margin: 5px;
+	padding: 0px 5px;
+	width: 92%;
+	height: 70%;
+}
+
+#btnSend{
+	margin: 0;
+	padding: 0;
+	width: 5%;
+	height: 70%; 
+}
+
+/* Right side of page (user list) */
+
+#right{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 15%;
+	float: left;
+	clear: none;
+}
+
+#chatUsr{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	float: left;
+	clear: none;
+	background-color: #3FE8FD;
+}
