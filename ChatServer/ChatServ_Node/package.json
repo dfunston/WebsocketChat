@@ -1,0 +1,15 @@
+{
+  "name": "chat-serv_node",
+  "version": "0.0.0",
+  "description": "ChatServ_Node",
+  "main": "server.js",
+  "author": {
+    "name": "eleif"
+  },
+  "dependencies": {
+    "keypress": "^0.2.1",
+    "mysql": "^2.13.0",
+    "nodejs-websocket": "^1.7.1",
+    "thread": "0.0.2"
+  }
+}
