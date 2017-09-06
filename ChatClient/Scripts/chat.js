@@ -30,8 +30,8 @@ window.onload = function(){
 	//THIS IS PLACEHOLDER
 	var chatName = prompt("Please enter the name you wish to be displayed. (THIS IS PLACEHOLDER)", "Name");
 	
-	//var chatSocket = new WebSocket("ws://www.inebriatedstudios.com/chat/chatBackend.php"); //Prod(ish) server
-	chatSocket = new WebSocket("ws://games.liekastrays.com:8101"); //Testing
+	//var chatSocket = new WebSocket("ws://prodserver:port"); //Prod(ish) server
+	chatSocket = new WebSocket("ws://devserver:port"); //Testing
 	chatSocket.onopen = function(event) {
 		var userID = Math.round(Math.random() * 1000000);	//Testing only
 		
