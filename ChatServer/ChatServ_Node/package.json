@@ -4,7 +4,7 @@
   "description": "ChatServ_Node",
   "main": "server.js",
   "author": {
-    "name": "eleif"
+    "name": "DanielFunston"
   },
   "dependencies": {
     "keypress": "^0.2.1",
